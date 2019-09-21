@@ -415,8 +415,17 @@ header {
         margin-top: 1em;
     }
 
+    /*modificando el nav*/
+    .menu{
+        margin-top: 0.5em;
+        padding-left: 0em;
+        padding-right:0em;
+    }
 
-
+    /*modificando la imagen*/
+    .big-hero img{
+        width: 200px;
+    }
 
     /*TODO: FALTA CSS */
 } 
