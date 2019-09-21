@@ -18,11 +18,6 @@ body {
     font-weight: 400;
 }
 
-/* colocando color al icono de contacto*/
-.menu li:last-child a{
-    color: red;
-}
-
 .header {
     display: flex;
     justify-content: space-between
@@ -96,7 +91,15 @@ p{
 .social-links li a{
     color: #D7DEE6;
     text-decoration: none;
-    font-size: 2.5em;
+    font-size: 10em;
+}
+.fas{
+    font-size: 5em;
+}
+
+/* poniendole el hover*/
+.menu li:hover a{
+    color:red;
 }
 
 
