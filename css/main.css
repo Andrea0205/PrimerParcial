@@ -267,6 +267,112 @@ footer .social-links {
     text-decoration: none;
     
 }
+/*modificando el margin del header*/
+header {
+    margin: 1.5em;
+    }
+
+/*modificando el caracter del menu*/
+.fas {
+    font-size: 1.5em;
+    padding-bottom: 0.5em;
+}
+/*cambiando el tamaño de la imagen*/
+.big-hero img {
+    width: 130px;
+}
+
+/*modificando tamaño de la letra*/
+.big-hero h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+    letter-spacing: 0.002em;
+    margin-top: 1em;
+}
+
+/*modificando tamaño de la letra(profesor,investigador...*/
+.big-hero p {
+    font-size: 0.95em;
+    color: #D7DEE6;
+}
+
+/*separando los iconos*/
+.big-hero .container .social-links li {
+
+}
+
+/*margen de la parte about*/
+.about .container{
+    margin-left:1.5em;
+    margin-right:2em;
+}
+
+/*modificando el logo*/
+.bio-info img {
+    width: 150px;
+}
+
+/*modificando los social links del footer*/
+
+
+/*modificando margen*/
+.green-area .container > ul{
+    margin-left:3em;
+    margin-right:3em;
+}
+
+/*tamaño de imagen*/
+.post article img {
+
+    height: 175px;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+/*modificando el h3*/
+.post article h3 {
+
+    color: #0D5061;
+    margin-top: 1em;
+    padding: 0em 1rem;
+    font-size: 1em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+/*modificando el parrafo*/
+.post article p {.post ul li article {
+
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #ffffff;
+    text-align: left;
+    padding-bottom: 2em;
+    padding-bottom: 0.5em;
+
+}
+
+    color: #112935;
+    font-size: 0.85em;
+    padding: 1rem;
+    line-height: 25px;
+
+}
+
+/*modificando el padding*/
+.post ul li article {
+
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #ffffff;
+    text-align: left;
+    padding-bottom: 2em;
+    padding-bottom: 0.5em;
+
+}
 
 /* Pesonalizando estilo para tablets*/
 @media only screen and (min-width: 768px) {
