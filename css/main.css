@@ -72,8 +72,9 @@ p{
 }
 
 .big-hero p {
-    font-size: 0.7em;;
+    font-size: 0.7em;
     color: #D7DEE6;
+    padding: 0em;
 
 }
 
@@ -129,6 +130,7 @@ p{
     margin: 2rem auto;
 }
 
+/*formato para el articulo*/
 .post ul li article {
     overflow: hidden;
     border-radius: 10px;
@@ -137,12 +139,13 @@ p{
     padding-bottom: 2em;
 }
 
+
 .post article img{
     height: 150px;
     width: 100%;
     object-fit: cover;
 }
-
+/*formato para el titulo*/
 .post article h3 {
     color: #0D5061;
     margin-top: 2em;
@@ -153,6 +156,7 @@ p{
     text-overflow: ellipsis;
 }
 
+/*formato para el parrafo*/
 .post article p {
     color:#112935;
     font-size: 0.75em;
@@ -374,6 +378,46 @@ header {
 
 }
 
+/*posicionamiento de about */
+.about>.container{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/modificando la flecha/
+.fas{
+    font-size: 4em;
+}
+
+article{
+    margin: 10px 50px;
+}
+.fa-arrow-circle-down:before {
+    content: "\f0ab";
+    font-size: 1.5em;
+}
+label{
+    font-size: 15px
+}
+
+.about h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2em;
+    margin: 0.5em;
+    width: 100%;
+}
+div.bio-info{
+    flex:1 1 50%;
+    min-width: 414px;
+    flex-wrap: wrap;
+}
+div.contact{
+    flex:1 1 50%;
+    flex-wrap: wrap;    
+}
+
 /* Pesonalizando estilo para tablets*/
 @media only screen and (min-width: 768px) {
   
@@ -428,13 +472,10 @@ header {
     }
 
     /*modificando el isotipo*/
-    .logo {
-
-        width: 150px;
-        margin-left: 1.5em;
-        margin-right: 0em;
-        padding-right: 0em;
-    
+    .options{
+        font-size: calc(2.1em + 1vh);
+        margin: 0em;
+        padding: 0em;
     }
 
     /*modificando los botones(nav)*/
@@ -505,7 +546,78 @@ header {
 @media only screen and (min-width: 1024px) {
 
        /*TODO: FALTA CSS */
+       /*modificando el nombre*/
+       .big-hero p {
 
+        font-size: 1.5em;
+        color: #D7DEE6;
+        padding: 1.5em;
+    }
+
+    /*modificando la flechita*/
+    .fas{
+        font-size: 3em;
+    }
+    /*modificando los iconos*/
+    .fab{
+        font-size: 1em;
+        margin-right: 0.2em;
+    }
+
+    .menu li a {
+
+        color: white;
+        text-decoration: none;
+        font-size: 2em;
+    
+    }
+
+    /*cambiando article*/
+    .post article h3 {
+
+        color: #0D5061;
+        margin-top: 0.5em;
+        padding: 0em 1rem;
+        font-size: 1.5em;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    
+    }
+
+    .post article p {
+
+        .post ul li article { overflow: hidden;
+        border-radius: 10px;
+        background-color: #ffffff;
+        text-align: left;
+        padding-bottom: 1em;
+        padding-bottom: 0.5em;
+        } color: #112935;
+        font-size: 1.5em;
+        padding: 1rem;
+        line-height: 25px;
+    
+    }
+
+    /*about*/
+    .bio-info img {
+
+        width: 140px;
+    
+    }
+    label {
+
+        font-size: 20px;
+    
+    }
+    p {
+
+        font-size: 1.5em;
+        padding: 0rem;
+        line-height: 25px;
+    
+    }
 
 
 }
