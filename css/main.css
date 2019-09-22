@@ -630,4 +630,49 @@ div.contact{
         margin: 0 auto;
         max-width: 1440px;
     }
+
+    .menu li a {
+
+        color: white;
+        text-decoration: none;
+        font-size: 1.5em;
+    
+    }
+
+    /*about*/
+    .about {
+
+        margin-top: 2em;
+        margin-right: -2em;
+    }
+
+    .contact-form {
+
+        display: flex;
+        flex-direction: column;
+        margin-left:10em;
+    }
+    .bio-info p {
+
+        font-size: 28px;
+        padding: 2em;
+        text-align: left;
+        line-height: 25px;
+        letter-spacing: 2px;
+    
+    }
+    .bio-info img {
+
+        width: 170px;
+    
+    }
+    .contact-form input, .contact-form textarea {
+
+        padding: 1.3rem 5rem;
+        border: none;
+        border-radius: 0px 2em;
+        font-size: 1em;
+        width: 100%;
+    
+    }
 }
