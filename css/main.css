@@ -539,7 +539,22 @@ div.contact{
         margin-left:1.5em;
         margin-right:2em;
 }
+/*green area*/
+.post {
 
+    padding: 1em;
+    margin-bottom: -2px;
+    margin-left:-5em;
+    margin-right:-5em;
+
+}
+/*flechita-tamaño*/
+.fas {
+
+    font-size: 3em;
+    padding-bottom: 0.5em;
+
+}
     /*TODO: FALTA CSS */
 } 
 
@@ -643,7 +658,8 @@ div.contact{
     .about {
 
         margin-top: 2em;
-        margin-right: -2em;
+        margin-right: -15em;
+        margin-left: -1.em;
     }
 
     .contact-form {
